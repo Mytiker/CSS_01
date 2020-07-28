@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+html {
+    font-family: 'Karla' ;
+}
+div {
+    width: 100%;
+    height: 33.33vh;
+}
+.cc {
+    margin: 10px 20px ;
+    /* padding: 20px 10px; */
+}
+
+.i h2{
+    color: hsl(179, 62%, 43%);
+
+}
+
+.i h3{
+    color: hsl(71, 73%, 54%);
+}
+
+.i p{
+    color: hsl(202, 19%, 66%);
+    line-height: 1.5rem;
+}
+
+ 
+.j {
+    color: whitesmoke;
+    line-height: 1.5rem;
+    padding: 10px; 
+    background-color:  hsl(179, 62%, 43%);
+ /* width: 100%; */
+}
+ 
+.j strong{
+    font-size: 2rem;
+}
+.j p {
+    line-height: 2rem;
+    margin-bottom: 40px;
+}
+
+.j button{
+height: 3rem;
+width: 90%;
+background-color: hsl(71, 73%, 54%);
+color: white;
+border: none;
+border-radius: 0.7rem;
+}
+
+
+.k{
+    background-color: hsl(179, 57%, 58%);
+    color: whitesmoke;
+line-height: 1.5rem;
+padding: 10px;
+/* width: 100%; */
+}
+.k h2{margin-bottom: 1.5rem;}
+
+@media screen and (min-width:1200px) {
+    .i {
+        width: 100%;
+        height: 50vh;
+    }
+   .j {
+       width: 50%;
+       float: left;
+       clear: both;
+       height: 50vh;
+       padding: 0px;
+
+   }
+    .k {
+        width: 50%;
+        float: right;
+        height: 50vh;
+        padding: 0px;
+    }
+    .k h2 {
+        margin: 30px 30px 30px 70px;
+    }
+    .k p {
+        margin: 30px 30px 30px 70px;
+
+    }
+    .j button{
+        width: 80%;
+        margin: 70px 30px 30px 70px;
+        
+    }
+    .j h2{margin: 30px 30px 30px 70px ;}
+ 
+    .j p{margin: 30px 30px 30px 70px;}
+
+
+ .i p{margin: 70px 30px 30px 70px;}
+ 
+    .i h2{ margin : 70px 30px 30px 70px}
+    .i h3{ margin : 70px 30px 30px 70px}
+ 
+ 
+
+}
